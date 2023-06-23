@@ -48,3 +48,5 @@ Thumbs.db
 *.mov
 *.wmv
 
+# Sphinx build dir
+build

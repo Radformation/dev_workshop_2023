@@ -1,0 +1,7 @@
+furo
+nox
+pre-commit
+sphinx
+sphinx-autobuild
+sphinx-copybutton
+sphinx-design
