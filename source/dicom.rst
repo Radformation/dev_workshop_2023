@@ -2,7 +2,7 @@
 DICOM
 =====
 
-:material-regular:`manage_accounts;2em`: :bdg-success:`beginner`, :bdg-info:`intermediate`
+:material-regular:`manage_accounts;2em`: :bdg-success:`beginner` :bdg-info:`intermediate`
 
 :material-regular:`terminal;2em`: :bdg-primary:`Python`, :bdg-primary:`C#`, :bdg-primary:`Java`
 
@@ -495,21 +495,21 @@ Libraries
 
 There are several common code libraries that developers often use to parse, manipulate, and process DICOM files. Here is a list of popular code libraries:
 
-* `pydicom <https://pydicom.com>`__: It is a widely used Python library for reading, modifying, and writing DICOM files. It provides an easy-to-use interface for accessing DICOM tags and pixel data.
+* pydicom: It is a widely used Python library for reading, modifying, and writing DICOM files. It provides an easy-to-use interface for accessing DICOM tags and pixel data.
 
-DCMTK (DICOM Toolkit): DCMTK is a comprehensive collection of libraries and applications for implementing DICOM functionality. It includes tools for file conversion, network communication, image processing, and more. It is written in C++ and provides command-line utilities along with a programming interface.
+* DCMTK (DICOM Toolkit): DCMTK is a comprehensive collection of libraries and applications for implementing DICOM functionality. It includes tools for file conversion, network communication, image processing, and more. It is written in C++ and provides command-line utilities along with a programming interface.
 
-GDCM (Grassroots DICOM): GDCM is an open-source implementation of the DICOM standard in C++. It offers functionalities for reading, writing, and manipulating DICOM files. GDCM supports various platforms and provides APIs for different programming languages, including C++, Python, and Java.
+* GDCM (Grassroots DICOM): GDCM is an open-source implementation of the DICOM standard in C++. It offers functionalities for reading, writing, and manipulating DICOM files. GDCM supports various platforms and provides APIs for different programming languages, including C++, Python, and Java.
 
-dcm4che: dcm4che is a Java-based library for working with DICOM data. It offers a comprehensive set of tools for reading, writing, and manipulating DICOM files, as well as networking capabilities for DICOM communication. It is widely used in the healthcare industry.
+* dcm4che: dcm4che is a Java-based library for working with DICOM data. It offers a comprehensive set of tools for reading, writing, and manipulating DICOM files, as well as networking capabilities for DICOM communication. It is widely used in the healthcare industry.
 
-fo-dicom: fo-dicom is a DICOM library for .NET platforms, including C# and VB.NET. It provides a simple and intuitive API for handling DICOM files and supports various DICOM operations, such as querying, retrieving, and storing DICOM data.
+* fo-dicom: fo-dicom is a DICOM library for .NET platforms, including C# and VB.NET. It provides a simple and intuitive API for handling DICOM files and supports various DICOM operations, such as querying, retrieving, and storing DICOM data.
 
-Cornerstone: Cornerstone is a JavaScript library for displaying and interacting with medical images, including DICOM files, in web browsers. It provides a powerful set of tools for viewing and manipulating images, as well as performing annotations and measurements.
+* Cornerstone: Cornerstone is a JavaScript library for displaying and interacting with medical images, including DICOM files, in web browsers. It provides a powerful set of tools for viewing and manipulating images, as well as performing annotations and measurements.
 
-ClearCanvas: ClearCanvas is an open-source framework for developing medical imaging applications. It includes a DICOM toolkit that allows developers to build DICOM-enabled applications in C#.NET. ClearCanvas provides a rich set of APIs and a visual development environment.
+* ClearCanvas: ClearCanvas is an open-source framework for developing medical imaging applications. It includes a DICOM toolkit that allows developers to build DICOM-enabled applications in C#.NET. ClearCanvas provides a rich set of APIs and a visual development environment.
 
-itk.js: itk.js is an open-source JavaScript library that brings the capabilities of the Insight Toolkit (ITK) to the web. ITK is a powerful image processing library widely used in the medical imaging field. itk.js allows developers to perform advanced image processing tasks on DICOM data directly in the browser.
+* itk.js: itk.js is an open-source JavaScript library that brings the capabilities of the Insight Toolkit (ITK) to the web. ITK is a powerful image processing library widely used in the medical imaging field. itk.js allows developers to perform advanced image processing tasks on DICOM data directly in the browser.
 
 These are just a few examples of the common code libraries used in DICOM. Each library has its own features, programming language support, and community. The choice of library depends on the specific requirements and the programming language you are using for your application.
 

@@ -84,6 +84,7 @@ It also covers practical aspects of working with DICOM images and files.
 
 
 .. toctree::
+   :maxdepth: 1
    :hidden:
    :caption: Breakouts
 
