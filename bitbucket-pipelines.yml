@@ -12,7 +12,7 @@ definitions:
 
 pipelines:
   branches:
-    master:
+    main:
       - step: *push-to-github
   custom:
     push-to-github:
