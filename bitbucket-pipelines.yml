@@ -1,0 +1,19 @@
+image: python:3.9-slim
+
+definitions:
+  - step: &push-to-github
+        name: Push to Github
+        clone:
+          depth: full
+        script:
+          - apt update
+          - apt install git -y
+          - git push git@github.com:Radformation/dev_workshop_2023.git $BITBUCKET_BRANCH
+
+pipelines:
+  branches:
+    master:
+      - step: *push-to-github
+  custom:
+    push-to-github:
+      - step: *push-to-github
