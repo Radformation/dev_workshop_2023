@@ -13,12 +13,25 @@ This breakout talks about the general philosophies involved in writing and maint
 good code. It applies to software development as a whole and while some language-specific
 practices are mentioned, the intent is to apply to any language and framework.
 
+Conversation Starters
+"""""""""""""""""""""
+
+* What does "best practices" mean to you in the context of software development, and why is it (or is it not) important?
+* Do you ensure effective communication and collaboration with your team to promote best practices in development?
+* In your experience, what are some common pitfalls or mistakes that developers often make, and how can they be avoided?
+* How do you approach code documentation in your projects? What strategies or tools have you found useful in this regard?
+* How do you ensure code quality in your development process? What techniques or practices do you employ for testing and code review?
+* How do you address security and data privacy concerns in your software projects? Are there any specific practices or tools you rely on?
+* What are some common challenges you face in troubleshooting and debugging complex issues, and how do you approach them?
+* Do you integrate continuous integration and continuous delivery (CI/CD) into your development workflow? Any tips or best practices to share?
+
 Philosophies
-""""""""""""
+------------
 
 There are countless philosophies about how to do software development right.
 The focus of this session is to provide straight-forward practices that
-cover a broad spectrum of philosophies. I.e. advice that's always applicable.
+cover a broad spectrum of philosophies. I.e. advice that's always applicable. This does not
+delve into principles like SOLID.
 
 The following are axioms that generally all developers can agree on. This
 provides a foundation for why certain practices are a good idea:
@@ -54,7 +67,7 @@ to know what license your code will be under so you (and potentially your employ
 the limitations and expectations. You can use this site as an introduction
 to popular licenses: https://choosealicense.com/
 
-.. note::
+.. important::
 
   You should check with your employee handbook or HR department to see if they have
   specific statements about "inventions" developed. It is common that your employer

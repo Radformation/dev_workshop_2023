@@ -11,6 +11,21 @@ DICOM
   While learning is important, we feel it's even more important to have a problem or project in mind as you learn so that
   specific techniques are immediately relevant as you proceed.
 
+Introduction
+------------
+
+This breakout focuses on what DICOM is, background information, use cases, and code snippets to perform specific actions with DICOM data/files.
+
+Conversation Starters
+"""""""""""""""""""""
+
+* What are some common use cases you've encountered for handling DICOM files in our field?
+* What challenges have you faced when working with DICOM files, and how did you overcome them?
+* Can you share any interesting examples where DICOM files/datasets have been leveraged in your clinic?
+* Have you explored any innovative use cases for DICOM files outside of traditional medical imaging, such as 3D printing or virtual reality?
+* How do you or are you handling privacy and security concerns when working with DICOM files, particularly when sharing or transmitting patient data?
+* Are there any emerging trends or technologies that you think will have a significant impact on how DICOM files are utilized in the future?
+
 Background
 ----------
 
@@ -118,6 +133,8 @@ In DICOM, SCU (Service Class User) and SCP (Service Class Provider) are two impo
   The SCP is the server-side entity that listens for incoming DICOM network connections and provides the requested services or operations. It receives DICOM requests from SCUs and performs the requested actions, such as retrieving, storing, or querying DICOM objects. The SCP is responsible for handling the incoming requests, processing them, and sending appropriate responses back to the requesting SCUs.
 
 In a DICOM network, SCUs and SCPs work together to establish associations and exchange DICOM messages. The SCU initiates the communication by requesting a service, and the SCP responds to those requests by providing the requested service. The roles of SCU and SCP can be implemented in the same application or divided between different devices or systems, depending on the specific network architecture and requirements.
+
+
 
 Network Actions
 """""""""""""""
@@ -511,7 +528,14 @@ There are several common code libraries that developers often use to parse, mani
 
 * itk.js: itk.js is an open-source JavaScript library that brings the capabilities of the Insight Toolkit (ITK) to the web. ITK is a powerful image processing library widely used in the medical imaging field. itk.js allows developers to perform advanced image processing tasks on DICOM data directly in the browser.
 
-These are just a few examples of the common code libraries used in DICOM. Each library has its own features, programming language support, and community. The choice of library depends on the specific requirements and the programming language you are using for your application.
+These are just a few examples of the common code libraries used in DICOM. Each library has its own features, programming language support, and community.
+
+Discussion
+""""""""""
+
+* What libraries are you using?
+* Are there any particular strengths or weaknesses of the libraries you use?
+* What features would you like to see in a library that doesn't currently exist or is hard to use?
 
 Other Resources
 ---------------
