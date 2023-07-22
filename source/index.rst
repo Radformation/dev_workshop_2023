@@ -88,12 +88,8 @@ It also covers practical aspects of working with DICOM images and files.
    :hidden:
    :caption: Breakouts
 
-   esapi
    dicom
    best_practices
-   software_patterns
-   images_contouring
-   automated_planning
 
 .. toctree::
    :hidden:
